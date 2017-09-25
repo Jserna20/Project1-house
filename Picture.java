@@ -25,6 +25,7 @@ public class Picture
     private Triangle mountain1;
     private Triangle mountain2;
     private Circle sun;
+    private Person kid;
 
     /**
      * Constructor for objects of class Picture
@@ -125,6 +126,9 @@ public class Picture
         sun.moveHorizontal(180);
         sun.moveVertical(-80);
         sun.makeVisible();
+        
+        kid = new Person();
+        kid.makeVisible();
     }
 
     /**
